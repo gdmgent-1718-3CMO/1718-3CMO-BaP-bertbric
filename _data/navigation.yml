@@ -9,18 +9,18 @@
 
 - name: Logo
   description: Logo
-  folder: pages/logo/
-  permalink: logo/
+  # folder: pages/logo
+  permalink: /logo
   # fa-icon: icon-graduation-cap
 
-- name: Kleur
-  description: Kleur
-  folder: pages/kleur/
-  permalink: kleur/
+- name: Druk
+  description: Druk elementen
+  folder: pages/druk/
+  permalink: druk/
   # fa-icon: icon-info
 
-- name: Styleguide
-  description: Stijlgids voor de Huistijlgids
-  # folder: pages/stijlgids
-  permalink: /stijlgids
+- name: Digitaal
+  description: Digitale elementen
+  folder: pages/digitaal
+  permalink: digitaal
   # fa-icon: icon-info

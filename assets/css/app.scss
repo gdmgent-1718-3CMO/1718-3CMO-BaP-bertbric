@@ -3,3 +3,138 @@
 @charset "UTF-8";
 
 @import "main";
+
+
+ /* VERTICAL NAVIGATION BAR
+ -------------------------------------------------- */
+
+ .navbar-brand {
+    background: #D47522;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        width: 35%;
+        background: #D47522;
+        margin-left: -200px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+}
+
+.navcss {
+    background-color: #D47522;
+    border-right: 5px solid #391A38;
+    margin-bottom: -50px;
+}
+
+#mainNavigation {
+    background: #D47522;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 15pt;
+}
+
+
+.nav-link:hover {
+    color: #391A38 !important;
+}
+
+@media (max-width: 768px) {
+    .navcss {
+        border-right: none;
+        border-bottom: 5px solid #391A38;
+    }
+}
+
+/* Nav dropdown */
+
+.dropdown-menu {
+    background-color: #391A38;
+}
+
+.dropdown-menu a {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .navmobmar {
+        margin-left: -160px;
+    }
+}
+
+
+.dropdown-menu .active {
+    background-color: #E5A91D;
+}
+
+
+.navbar-toggler {
+    margin-top: -80px;
+    margin-right: -250px;
+    margin-bottom: 20px;
+    background-color: #391A38;
+}
+
+/* Nav rechts */
+
+.nav a {
+    color: #D47522 !important;
+    border-bottom: 1.2px solid #D47522;
+}
+
+.nav a:hover {
+    color: #391A38 !important;
+    border-bottom: 1.2px solid #391A38;
+    border-left: none !important;
+}
+
+@media (max-width: 768px) {
+    .nav a {
+        display: none !important;
+    }
+}
+
+/* Footer */
+
+footer {
+    height: 50px;
+    margin-top: 0px;
+    font-size: 10pt;
+}
+
+.textfoot {
+    padding-top: 12px;
+}
+
+/* body */
+
+#Heading {
+    font-size: 45pt;
+    font-weight: 700;
+    color: #391A38;
+}
+
+#Heading2 {
+    font-size: 25pt;
+    font-weight: 600;
+    color: #D47522;
+}
+
+@media (max-width: 768px) {
+    #Heading {
+        font-size: 30pt;
+        font-weight: 700;
+        color: #391A38;
+    }
+
+#Heading2 {
+    font-size: 18pt;
+    font-weight: 600;
+    color: #D47522;
+}
+}

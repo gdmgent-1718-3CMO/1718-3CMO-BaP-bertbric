@@ -1,13 +1,13 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light flex-column custom-nav-ver">
+<nav class="navbar navbar-expand-md navbar-light flex-column custom-nav-ver">
 
-    <a class="navbar-brand" href="#">MyClient</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="{{site.baseurl}}/index"><img src="{{site.baseurl}}/assets/images/LogoNav.png" alt="LogoBBC" width="60%"></a>
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse flex-column" id="mainNavigation">
 
-    <ul class="navbar-nav flex-column">
+    <ul class="navbar-nav flex-column navmobmar">
 {%- for nav-item in site.data.navigation %}
     
     {%- capture item_classes %}{% if page.url contains nav-item.permalink %}active{% endif %}{% endcapture %}
