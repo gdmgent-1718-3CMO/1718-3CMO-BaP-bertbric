@@ -143,6 +143,17 @@ footer {
     color: #D47522;
 }
 
+#bold2 {
+    color: #D47522;
+    font-size: 18pt;
+}
+
+@media (max-width: 768px) {
+    #bold2 {
+        font-size: 14pt;
+    }
+}
+
 .WB {
     border: 2px solid #D47522;
 }
@@ -153,4 +164,13 @@ footer {
 
 #colortekst {
     font-size: 10pt;
+}
+
+.btn {
+    color: white;
+    background-color: #391A38;
+}
+
+.btn:hover {
+    background-color: #D47522;
 }
