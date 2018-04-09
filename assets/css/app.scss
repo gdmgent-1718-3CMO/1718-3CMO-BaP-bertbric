@@ -102,14 +102,25 @@
 /* Footer */
 
 footer {
-    height: 50px;
-    margin-top: 0px;
+    height: 270px;
     font-size: 10pt;
 }
 
 .textfoot {
     padding-top: 12px;
+    text-align: center;
 }
+
+.AfbFooter {
+    margin-top: 10px;
+}
+
+.AfbFooter2 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
 
 /* body */
 
@@ -182,4 +193,8 @@ footer {
 
 #linksite:hover {
     color: #391A38;
+}
+
+.Onder {
+    height: 300px;
 }
